@@ -8,6 +8,6 @@ then:
 
 conda activate ismip6_plotting_env
 
-To reporoduce figures, you can then run:
+To reproduce figures, you can then run:
 
 python create_ISMIP6_plots.py /path/to/BISICLES_ismip6_output_8km_2/ /path/to/thermal_forcings_ismip6/ /path/to/smb_anomaly_ismip6/
