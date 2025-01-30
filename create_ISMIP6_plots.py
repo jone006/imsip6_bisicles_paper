@@ -26,7 +26,7 @@ from labellines import labelLines
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 from matplotlib.lines import Line2D
 import argparse
-from ISMIP6_plots_cli_main_figures_2 import *
+from ISMIP6_figure_functions import *
 
 
 def main(args):
