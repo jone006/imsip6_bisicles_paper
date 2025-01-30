@@ -28,10 +28,11 @@ from matplotlib.lines import Line2D
 import argparse
 from ISMIP6_plots_cli_main_figures_2 import *
 
+netcdf_dir = '/path/to/BISICLES_ismip6_output/'
 
 ################################ Supplementary figure 2 ################################################################
 ## Need to download Antarctic velocity (measures 450m antarctic velocity data) dataset to do comparison plot
-vel_path = '/Volumes/T7/antarctica_ice_velocity_450m_v2.nc'
+vel_path = netcdf_dir + 'antarctica_ice_velocity_450m_v2.nc'
 def get_gl(bed, thickness):
     Hf = -1028/928*bed
     glmask = np.where(thickness > Hf, 1, np.zeros_like(bed))
